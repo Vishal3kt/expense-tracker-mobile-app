@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: transparent;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+a,
+button {
+  cursor: pointer;
+}
+
+ul,
+li,
+ol {
+  list-style: none;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}

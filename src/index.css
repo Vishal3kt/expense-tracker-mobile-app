@@ -33,3 +33,8 @@ a {
   color: unset;
   text-decoration: none;
 }
+
+#root {
+  width: 90%;
+  background-image: url('./assets/expense-img.png');
+}
